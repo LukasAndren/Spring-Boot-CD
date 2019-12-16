@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 @Controller
 public class CalculationController {
 
+
+
     @GetMapping("/addCalculation")
     public String sendForm(Calculation calculation){
 
