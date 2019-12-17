@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 @Controller
 public class CalculationController {
 
-
+//Test comment to commit
 
     @GetMapping("/addCalculation")
     public String sendForm(Calculation calculation){
